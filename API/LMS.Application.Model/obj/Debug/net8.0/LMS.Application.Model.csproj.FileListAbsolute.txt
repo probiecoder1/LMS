@@ -1,0 +1,11 @@
+D:\LMS\API\LMS.Application.Model\bin\Debug\net8.0\LMS.Application.Model.deps.json
+D:\LMS\API\LMS.Application.Model\bin\Debug\net8.0\LMS.Application.Model.dll
+D:\LMS\API\LMS.Application.Model\bin\Debug\net8.0\LMS.Application.Model.pdb
+D:\LMS\API\LMS.Application.Model\obj\Debug\net8.0\LMS.Application.Model.GeneratedMSBuildEditorConfig.editorconfig
+D:\LMS\API\LMS.Application.Model\obj\Debug\net8.0\LMS.Application.Model.AssemblyInfoInputs.cache
+D:\LMS\API\LMS.Application.Model\obj\Debug\net8.0\LMS.Application.Model.AssemblyInfo.cs
+D:\LMS\API\LMS.Application.Model\obj\Debug\net8.0\LMS.Application.Model.csproj.CoreCompileInputs.cache
+D:\LMS\API\LMS.Application.Model\obj\Debug\net8.0\LMS.Application.Model.dll
+D:\LMS\API\LMS.Application.Model\obj\Debug\net8.0\refint\LMS.Application.Model.dll
+D:\LMS\API\LMS.Application.Model\obj\Debug\net8.0\LMS.Application.Model.pdb
+D:\LMS\API\LMS.Application.Model\obj\Debug\net8.0\ref\LMS.Application.Model.dll

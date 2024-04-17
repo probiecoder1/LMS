@@ -1,0 +1,7 @@
+D:\LMS\API\LMS_Solution\obj\Debug\net8.0\LMS.Application.WebApi.csproj.AssemblyReference.cache
+D:\LMS\API\LMS_Solution\obj\Debug\net8.0\LMS.Application.WebApi.GeneratedMSBuildEditorConfig.editorconfig
+D:\LMS\API\LMS_Solution\obj\Debug\net8.0\LMS.Application.WebApi.AssemblyInfoInputs.cache
+D:\LMS\API\LMS_Solution\obj\Debug\net8.0\LMS.Application.WebApi.AssemblyInfo.cs
+D:\LMS\API\LMS_Solution\obj\Debug\net8.0\LMS.Application.WebApi.csproj.CoreCompileInputs.cache
+D:\LMS\API\LMS_Solution\obj\Debug\net8.0\LMS.Application.WebApi.MvcApplicationPartsAssemblyInfo.cs
+D:\LMS\API\LMS_Solution\obj\Debug\net8.0\LMS.Application.WebApi.MvcApplicationPartsAssemblyInfo.cache

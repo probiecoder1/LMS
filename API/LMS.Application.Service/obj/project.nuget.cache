@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "ZtrqBhLVBAm/TxoySMoukgDbWUjw7CXB7Pb3NcyxW6pVRe9UrZd/9F1/zHhGJSXlMycHuTTW/usYSN/oZDh7bw==",
+  "success": true,
+  "projectFilePath": "D:\\LMS\\API\\LMS.Application.Service\\LMS.Application.Service.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Acer\\.nuget\\packages\\sd.llblgen.pro.dqe.sqlserver\\5.9.0\\sd.llblgen.pro.dqe.sqlserver.5.9.0.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\sd.llblgen.pro.ormsupportclasses\\5.9.0\\sd.llblgen.pro.ormsupportclasses.5.9.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,11 @@
+D:\LMS\API\LMS_Solution\DatabaseSpecific\bin\Debug\netstandard2.0\LMS.Application.LLBLDBSpecific.dll.config
+D:\LMS\API\LMS_Solution\DatabaseSpecific\bin\Debug\netstandard2.0\LMS.Application.LLBLDBSpecific.deps.json
+D:\LMS\API\LMS_Solution\DatabaseSpecific\bin\Debug\netstandard2.0\LMS.Application.LLBLDBSpecific.dll
+D:\LMS\API\LMS_Solution\DatabaseSpecific\bin\Debug\netstandard2.0\LMS.Application.LLBLDBSpecific.pdb
+D:\LMS\API\LMS_Solution\DatabaseSpecific\obj\Debug\netstandard2.0\LMS.Application.LLBLDBSpecific.csproj.AssemblyReference.cache
+D:\LMS\API\LMS_Solution\DatabaseSpecific\obj\Debug\netstandard2.0\LMS.Application.LLBLDBSpecific.GeneratedMSBuildEditorConfig.editorconfig
+D:\LMS\API\LMS_Solution\DatabaseSpecific\obj\Debug\netstandard2.0\LMS.Application.LLBLDBSpecific.AssemblyInfoInputs.cache
+D:\LMS\API\LMS_Solution\DatabaseSpecific\obj\Debug\netstandard2.0\LMS.Application.LLBLDBSpecific.AssemblyInfo.cs
+D:\LMS\API\LMS_Solution\DatabaseSpecific\obj\Debug\netstandard2.0\LMS.Application.LLBLDBSpecific.csproj.CoreCompileInputs.cache
+D:\LMS\API\LMS_Solution\DatabaseSpecific\obj\Debug\netstandard2.0\LMS.Application.LLBLDBSpecific.dll
+D:\LMS\API\LMS_Solution\DatabaseSpecific\obj\Debug\netstandard2.0\LMS.Application.LLBLDBSpecific.pdb

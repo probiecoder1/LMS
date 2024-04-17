@@ -1,0 +1,408 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--LLBLGen Pro v5.9 project file. Do not manually edit this file. Incorrect references could lead to an unloadable project file.-->
+<Project Version="5.9" TargetFrameworkName="LLBLGen Pro Runtime Framework" UseLegacyDefaults="false">
+  <Properties>
+    <Abbreviations />
+    <Property Name="AdditionalTaskPerformerFolder" Value="" />
+    <Property Name="AdditionalTasksFolder" Value="" />
+    <Property Name="AdditionalTemplatesFolder" Value="" />
+    <Property Name="AdditionalTypeConverterFolder" Value="" />
+    <Property Name="AddNewElementsAfterRefresh_v5" Value="false" />
+    <Property Name="AddNewElementsAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="AddNewFieldsAfterRefresh_v5" Value="true" />
+    <Property Name="AddNewFieldsAfterRelationalModelDataSync_v5" Value="true" />
+    <Property Name="AddNewViewsAsEntitiesAfterRefresh_v5" Value="false" />
+    <Property Name="AddNewViewsAsEntitiesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="AutoAddManyToManyRelationships" Value="false" />
+    <Property Name="AutoAssignSequencesToIntegerPks" Value="true" />
+    <Property Name="AutoAssignTypeConverterToFieldMapping" Value="true" />
+    <Property Name="AutomaticallyGenerateSourceCodeOnProjectSave" Value="false" />
+    <Property Name="ConnectionStringKeyNamePattern" Value="ConnectionString.{$ProviderName}" />
+    <Property Name="DefaultDDLSQLScriptDestinationFolder" Value=".\DDLSQLScripts" />
+    <Property Name="DefaultDeleteRuleAction" Value="1" />
+    <Property Name="DefaultSourceCodeDestinationFolder" Value=".\Code" />
+    <Property Name="DefaultUpdateRuleAction" Value="0" />
+    <Property Name="DeleteObsoleteFiles" Value="true" />
+    <Property Name="ElementNamePrefixPattern" Value="{$SchemaName}" />
+    <Property Name="ElementNamePrefixPatternIsAppliedWhen" Value="1" />
+    <Property Name="EncodingToUse" Value="0" />
+    <Property Name="EntityActionCombinationDefaultForTable" Value="0" />
+    <Property Name="EntityActionCombinationDefaultForView" Value="4" />
+    <Property Name="EntityFieldNameStripPattern" Value="{}{}" />
+    <Property Name="EntityNameStripPattern" Value="{tbl_}{}" />
+    <Property Name="ExcludableOrphanedElementDetectedAction" Value="3" />
+    <Property Name="FailCodeGenerationOnWriteError" Value="false" />
+    <Property Name="FieldMappedOntoRelatedFieldPattern" Value="{$RelatedFieldName}" />
+    <Property Name="FkFieldsAreNamedAfterTargetField" Value="true" />
+    <Property Name="ForeignKeyConstraintPattern" Value="FK_{$Guid}" />
+    <Property Name="ForeignKeyFieldPattern" Value="{$NavigatorName}{$RelatedFieldName}" />
+    <Property Name="GroupUsage" Value="0" />
+    <Property Name="IdentifyingFieldsFollowDBPrimaryKeyConstraints_v5" Value="true" />
+    <Property Name="InsertUnderscoreAtWordBreakCaseInsensitiveDBs" Value="false" />
+    <Property Name="InsertUnderscoreAtWordBreakCaseSensitiveDBs" Value="false" />
+    <Property Name="LengthPrecisionScaleFollowDBLengthPrecisionScale_v5" Value="true" />
+    <Property Name="MakeElementNamePascalCasing" Value="true" />
+    <Property Name="NavigatorMappedOntoManyToManyPattern" Value="{$EndEntityName}CollectionVia{$IntermediateEntityName$S}" />
+    <Property Name="NavigatorMappedOntoOneManyToOnePattern" Value="{$EndEntityName$S}" />
+    <Property Name="NavigatorMappedOntoOneToManyPattern" Value="{$EndEntityName$P}" />
+    <Property Name="NonExcludableOrphanedElementDetectedAction" Value="3" />
+    <Property Name="PreferDecimalOverCurrencyTypes" Value="true" />
+    <Property Name="PreferNaturalCharacterTypes" Value="true" />
+    <Property Name="PreferSystemSequencesOverSchemaSequencesIfApplicable" Value="true" />
+    <Property Name="PreferVariableLengthTypes" Value="true" />
+    <Property Name="PrimaryKeyConstraintPattern" Value="PK_{$Guid}" />
+    <Property Name="ProjectCreator" Value="Roshish" />
+    <Property Name="ProjectName" Value="LMS.Application.LLBL" />
+    <Property Name="ReflectNullabilityOfElementFieldInTargetField_v5" Value="false" />
+    <Property Name="ReflectTypeOfElementFieldInTargetField_v5" Value="true" />
+    <Property Name="RelationalModelDataElementNameCasingCaseInsensitiveDBs" Value="3" />
+    <Property Name="RelationalModelDataElementNameCasingCaseSensitiveDBs" Value="3" />
+    <Property Name="RelationshipsFollowDBForeignKeyConstraints_v5" Value="true" />
+    <Property Name="RemoveUnderscoresFromElementName" Value="true" />
+    <Property Name="RemoveUnmappedElementsAfterRefresh_v5" Value="false" />
+    <Property Name="RemoveUnmappedElementsAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="ResetFieldOrderBasedOnTargetOrderAtRefresh" Value="false" />
+    <Property Name="ResetFieldOrderBasedOnTargetOrderAtRelationalModelDataSync" Value="false" />
+    <Property Name="RetrieveDBCustomProperties" Value="false" />
+    <Property Name="RootNamespace" Value="LMS.Application.LLBL" />
+    <Property Name="SequenceNameMatchingPattern" Value="SEQ_{$TableName}" />
+    <Property Name="SequencePattern" Value="SEQ_{$EntityName}" />
+    <Property Name="SetGroupNameAfterSchemaName" Value="true" />
+    <Property Name="SetSchemaNameAfterGroupName" Value="true" />
+    <Property Name="SingularizeElementNames" Value="true" />
+    <Property Name="StoredProcNameStripPattern" Value="{pr_, sp_}{}" />
+    <Property Name="StoreTimeLastGeneratedIntoProject" Value="false" />
+    <Property Name="StoreTimeLastSyncIntoProject" Value="true" />
+    <Property Name="SyncCustomFieldOrderingWithTableFieldIndex" Value="false" />
+    <Property Name="SyncMappedElementNamesAfterRefresh_v5" Value="false" />
+    <Property Name="SyncMappedElementNamesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="SyncRelationalModelDataElementNameWithModelElementName_v5" Value="false" />
+    <Property Name="SyncRenamedMappedElementNamesAfterRefresh_v5" Value="false" />
+    <Property Name="SyncRenamedMappedElementNamesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="TableValuedFunctionNameStripPattern" Value="{fn_, pr_, sp_}{}" />
+    <Property Name="TargetPerEntityEdgesRequireBackingFkConstraint" Value="true" />
+    <Property Name="TypedViewFieldNameStripPattern" Value="{}{}" />
+    <Property Name="TypedViewMappedOnResultsetPattern" Value="{$ProcFunctionName}{$ResultsetName}Result" />
+    <Property Name="TypedViewNameStripPattern" Value="{vw_}{}" />
+    <Property Name="UniqueConstraintPattern" Value="UC_{$Guid}" />
+    <Property Name="UniqueConstraintsFollowDBUniqueConstraints_v5" Value="true" />
+    <Property Name="UpdateCustomPropertiesAfterRefresh_v5" Value="false" />
+    <Property Name="UpdateCustomPropertiesAfterRelationalModelDataSync_v5" Value="false" />
+    <Property Name="UseCustomFieldOrderingOnNewElements" Value="false" />
+  </Properties>
+  <TypeShortcuts />
+  <IgnoredWarnings />
+  <SavedSearchQueries />
+  <CodeGenerationCyclePreferences>
+    <OutputType Value="3">
+      <LastUsedPreferences>
+        <DestinationRootFolder Value="D:\LMS\API\LMS_Solution" />
+        <FrameworkName Value="LLBLGen Pro Runtime Framework" />
+        <LanguageName Value="C#" />
+        <PlatformName Value=".NET Standard 2.0" />
+        <PresetName Value="SD.Presets.Adapter.General.Netstandard" />
+        <RootNamespace Value="LMS.Application.LLBL" />
+        <TemplateGroup Value="Adapter" />
+        <TemplateBindings>
+          <Binding Name="SD.TemplateBindings.AccessSpecific" />
+          <Binding Name="SD.TemplateBindings.DB2Specific" />
+          <Binding Name="SD.TemplateBindings.FirebirdSpecific" />
+          <Binding Name="SD.TemplateBindings.MySqlSpecific" />
+          <Binding Name="SD.TemplateBindings.OracleODPNetSpecific" />
+          <Binding Name="SD.TemplateBindings.PostgreSqlSpecific" />
+          <Binding Name="SD.TemplateBindings.SharedTemplates.Netstandard20" />
+          <Binding Name="SD.TemplateBindings.SharedTemplates" />
+          <Binding Name="SD.TemplateBindings.SqlServerSpecific" />
+          <Binding Name="SD.TemplateBindings.General" />
+        </TemplateBindings>
+        <AdhocTemplateSets />
+      </LastUsedPreferences>
+    </OutputType>
+  </CodeGenerationCyclePreferences>
+  <OutputSettingValues>
+    <SettingValues>
+      <SettingValue Name="1:AdapterDbGenericSubFolderName" Value="DatabaseGeneric" Type="18" />
+      <SettingValue Name="1:AdapterDbSpecificNamespaceSuffix" Value="DatabaseSpecific" Type="18" />
+      <SettingValue Name="1:AdapterDbSpecificProjectFileSuffix" Value="DBSpecific" Type="18" />
+      <SettingValue Name="1:AdapterDbSpecificSubFolderName" Value="DatabaseSpecific" Type="18" />
+      <SettingValue Name="1:ConvertNulledReferenceTypesToDefaultValue" Value="true" Type="3" />
+      <SettingValue Name="1:EntityBaseClassNameDefault" Value="CommonEntityBase" Type="18" />
+      <SettingValue Name="1:FieldPropertyIsPublicDefault" Value="true" Type="3" />
+      <SettingValue Name="1:GenerateAsNullableTypeDefault" Value="true" Type="3" />
+      <SettingValue Name="1:GenerateEntityFieldFactory" Value="false" Type="3" />
+      <SettingValue Name="1:GenerateEntityFieldsFactory" Value="false" Type="3" />
+      <SettingValue Name="1:InlineValueTypedFields" Value="true" Type="3" />
+      <SettingValue Name="1:LazyLoadingWithoutResultReturnsNew" Value="false" Type="3" />
+      <SettingValue Name="1:NavigatorPropertyIsPublicDefault" Value="true" Type="3" />
+      <SettingValue Name="1:SupportedActionCombinations" Value="0,1,2,3,4,5,6,7" Type="18" />
+      <SettingValue Name="1:TdlEmitTimeDateInOutputFiles" Value="false" Type="3" />
+      <SettingValue Name="1:TypedListOutputTypeDefault" Value="PocoWithQuerySpecQuery" Type="18" />
+      <SettingValue Name="1:TypedViewOutputTypeDefault" Value="PocoWithQuerySpecQuery" Type="18" />
+    </SettingValues>
+  </OutputSettingValues>
+  <CodeGenerationMetaDataDefaults>
+    <TargetElement Type="256">
+      <Defaults>
+        <Attributes>
+          <Attribute Value="Browsable($false)" />
+        </Attributes>
+      </Defaults>
+    </TargetElement>
+  </CodeGenerationMetaDataDefaults>
+  <SPCallDefinitions>
+    <SPCallDefinition Name="SpAllUserPersonSel" ObjectID="1ffbb8b2-6d9f-4878-8a30-5d465c7617fb">
+      <Parameters>
+        <Parameter Name="Json" Type="string" MaxLength="2147483647" Direction="3" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpBookSel" ObjectID="967eed18-c407-4395-a554-c7dad293a08f">
+      <Parameters>
+        <Parameter Name="Json" Type="string" MaxLength="2147483647" Direction="3" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpBookTsk" ObjectID="fd7f0153-12cd-4414-8131-027c5198f0be">
+      <Parameters>
+        <Parameter Name="BookData" Type="string" MaxLength="2147483647" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpBorrowSel" ObjectID="ab1f7ee8-d0cb-4d77-bd38-e9c6f4f46838">
+      <Parameters>
+        <Parameter Name="Json" Type="string" MaxLength="2147483647" Direction="3" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpIssueBook" ObjectID="86439160-34a5-4bf4-b7ad-e2ee5a7654bd">
+      <Parameters>
+        <Parameter Name="BookId" Type="int" Precision="10" />
+        <Parameter Name="IssueDate" Type="datetime" />
+        <Parameter Name="MemberId" Type="int" Precision="10" />
+        <Parameter Name="UserPersonId" Type="int" Precision="10" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpMemberSel" ObjectID="e696eff6-9693-4fd6-92c4-ecf556e4f85c">
+      <Parameters>
+        <Parameter Name="Json" Type="string" MaxLength="2147483647" Direction="3" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpPaymentSel" ObjectID="749fe06b-dd16-4cab-92c4-2d1a4d1c114f">
+      <Parameters>
+        <Parameter Name="Json" Type="string" MaxLength="2147483647" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpPaymentTsk" ObjectID="e82ebe7c-a42e-4670-9c3e-8b72bab54972">
+      <Parameters>
+        <Parameter Name="Json" Type="string" MaxLength="2147483647" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpUserPersonLoginSel" ObjectID="3dc6f7c6-c059-4139-b629-4fa8075b6ee3">
+      <Parameters>
+        <Parameter Name="InputJson" Type="string" MaxLength="2147483647" />
+        <Parameter Name="Json" Type="string" MaxLength="2147483647" Direction="3" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpUserPersonSel" ObjectID="c423100e-eabd-43cd-8902-06fcdaffb520">
+      <Parameters>
+        <Parameter Name="Json" Type="string" MaxLength="2147483647" Direction="3" />
+      </Parameters>
+    </SPCallDefinition>
+    <SPCallDefinition Name="SpUserPersonTsk" ObjectID="90697463-5863-4108-8ac9-9e515a2fed73">
+      <Parameters>
+        <Parameter Name="Json" Type="string" MaxLength="2147483647" Direction="3" />
+      </Parameters>
+    </SPCallDefinition>
+  </SPCallDefinitions>
+  <TargetDatabases>
+    <TargetDatabase Type="2D18D138-1DD2-467E-86CC-4838250611AE" SyncSource="2">
+      <ConnectionElements>
+        <ConnectionElement Name="ServerName" Value="10.6.0.225" />
+        <ConnectionElement Name="CatalogName" Value="master" />
+        <ConnectionElement Name="UserID" Value="Intern" />
+        <ConnectionElement Name="Password" Value="" />
+      </ConnectionElements>
+      <SystemSequences>
+        <Sequence Name="SCOPE_IDENTITY()" />
+        <Sequence Name="@@IDENTITY" />
+      </SystemSequences>
+      <Catalogs>
+        <Catalog Name="Roshish_LibraryManagementSystem">
+          <Schemas>
+            <Schema Name="dbo" SyncSource="2" LastSyncWithDatabase="2024-03-11T18:12:22.4525988Z">
+              <StoredProcedures>
+                <StoredProcedure Name="SpAllUserPersonSel" NumberOfResultsets="1">
+                  <Parameters>
+                    <Parameter Name="@Json" Direction="3" Ordinal="1" DbType="24" Length="2147483647" />
+                  </Parameters>
+                  <Resultsets>
+                    <Resultset Name="Resultset1">
+                      <Fields>
+                        <Field Name="Json" Ordinal="1" IsOptional="true" DbType="24" Length="2147483647" />
+                      </Fields>
+                    </Resultset>
+                  </Resultsets>
+                </StoredProcedure>
+                <StoredProcedure Name="SpBookSel" NumberOfResultsets="1">
+                  <Parameters>
+                    <Parameter Name="@Json" Direction="3" Ordinal="1" DbType="24" Length="2147483647" />
+                  </Parameters>
+                  <Resultsets>
+                    <Resultset Name="Resultset1">
+                      <Fields>
+                        <Field Name="Json" Ordinal="1" IsOptional="true" DbType="24" Length="2147483647" />
+                      </Fields>
+                    </Resultset>
+                  </Resultsets>
+                </StoredProcedure>
+                <StoredProcedure Name="SpBookTsk">
+                  <Parameters>
+                    <Parameter Name="@BookData" Direction="1" Ordinal="1" DbType="12" Length="2147483647" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpBorrowSel" NumberOfResultsets="1">
+                  <Parameters>
+                    <Parameter Name="@Json" Direction="3" Ordinal="1" DbType="24" Length="2147483647" />
+                  </Parameters>
+                  <Resultsets>
+                    <Resultset Name="Resultset1">
+                      <Fields>
+                        <Field Name="Json" Ordinal="1" IsOptional="true" DbType="24" Length="2147483647" />
+                      </Fields>
+                    </Resultset>
+                  </Resultsets>
+                </StoredProcedure>
+                <StoredProcedure Name="SpIssueBook">
+                  <Parameters>
+                    <Parameter Name="@BookId" Direction="1" Ordinal="1" DbType="8" Precision="10" />
+                    <Parameter Name="@MemberId" Direction="1" Ordinal="2" DbType="8" Precision="10" />
+                    <Parameter Name="@IssueDate" Direction="1" Ordinal="3" DbType="4" />
+                    <Parameter Name="@UserPersonId" Direction="1" Ordinal="4" DbType="8" Precision="10" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpMemberSel" NumberOfResultsets="1">
+                  <Parameters>
+                    <Parameter Name="@Json" Direction="3" Ordinal="1" DbType="24" Length="2147483647" />
+                  </Parameters>
+                  <Resultsets>
+                    <Resultset Name="Resultset1">
+                      <Fields>
+                        <Field Name="Json" Ordinal="1" IsOptional="true" DbType="24" Length="2147483647" />
+                      </Fields>
+                    </Resultset>
+                  </Resultsets>
+                </StoredProcedure>
+                <StoredProcedure Name="SpPaymentSel" NumberOfResultsets="1">
+                  <Parameters>
+                    <Parameter Name="@Json" Direction="3" Ordinal="1" DbType="24" Length="2147483647" />
+                  </Parameters>
+                  <Resultsets>
+                    <Resultset Name="Resultset1">
+                      <Fields>
+                        <Field Name="Json" Ordinal="1" IsOptional="true" DbType="24" Length="2147483647" />
+                      </Fields>
+                    </Resultset>
+                  </Resultsets>
+                </StoredProcedure>
+                <StoredProcedure Name="SpPaymentTsk">
+                  <Parameters>
+                    <Parameter Name="@Json" Direction="1" Ordinal="1" DbType="12" Length="2147483647" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpUserPersonLoginSel">
+                  <Parameters>
+                    <Parameter Name="@InputJson" Direction="1" Ordinal="1" DbType="12" Length="2147483647" />
+                    <Parameter Name="@Json" Direction="3" Ordinal="2" DbType="12" Length="2147483647" />
+                  </Parameters>
+                </StoredProcedure>
+                <StoredProcedure Name="SpUserPersonSel" NumberOfResultsets="1">
+                  <Parameters>
+                    <Parameter Name="@Json" Direction="3" Ordinal="1" DbType="24" Length="2147483647" />
+                  </Parameters>
+                  <Resultsets>
+                    <Resultset Name="Resultset1">
+                      <Fields>
+                        <Field Name="Json" Ordinal="1" IsOptional="true" DbType="24" Length="2147483647" />
+                      </Fields>
+                    </Resultset>
+                  </Resultsets>
+                </StoredProcedure>
+                <StoredProcedure Name="SpUserPersonTsk">
+                  <Parameters>
+                    <Parameter Name="@UserData" Direction="1" Ordinal="1" DbType="12" Length="2147483647" />
+                  </Parameters>
+                </StoredProcedure>
+              </StoredProcedures>
+            </Schema>
+          </Schemas>
+        </Catalog>
+      </Catalogs>
+    </TargetDatabase>
+  </TargetDatabases>
+  <MappingStores>
+    <MappingStore Type="2D18D138-1DD2-467E-86CC-4838250611AE">
+      <EntityMappings />
+      <TypedViewMappings />
+      <SPCallMappings>
+        <SPCallMapping SPCallName=":SpAllUserPersonSel" TargetName="Roshish_LibraryManagementSystem:dbo:SpAllUserPersonSel">
+          <FieldMappings>
+            <FieldMapping FieldName="Json" TargetFieldName="@Json" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpBookSel" TargetName="Roshish_LibraryManagementSystem:dbo:SpBookSel">
+          <FieldMappings>
+            <FieldMapping FieldName="Json" TargetFieldName="@Json" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpBookTsk" TargetName="Roshish_LibraryManagementSystem:dbo:SpBookTsk">
+          <FieldMappings>
+            <FieldMapping FieldName="BookData" TargetFieldName="@BookData" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpBorrowSel" TargetName="Roshish_LibraryManagementSystem:dbo:SpBorrowSel">
+          <FieldMappings>
+            <FieldMapping FieldName="Json" TargetFieldName="@Json" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpIssueBook" TargetName="Roshish_LibraryManagementSystem:dbo:SpIssueBook">
+          <FieldMappings>
+            <FieldMapping FieldName="BookId" TargetFieldName="@BookId" />
+            <FieldMapping FieldName="IssueDate" TargetFieldName="@IssueDate" />
+            <FieldMapping FieldName="MemberId" TargetFieldName="@MemberId" />
+            <FieldMapping FieldName="UserPersonId" TargetFieldName="@UserPersonId" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpMemberSel" TargetName="Roshish_LibraryManagementSystem:dbo:SpMemberSel">
+          <FieldMappings>
+            <FieldMapping FieldName="Json" TargetFieldName="@Json" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpPaymentSel" TargetName="Roshish_LibraryManagementSystem:dbo:SpPaymentSel">
+          <FieldMappings>
+            <FieldMapping FieldName="Json" TargetFieldName="@Json" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpPaymentTsk" TargetName="Roshish_LibraryManagementSystem:dbo:SpPaymentTsk">
+          <FieldMappings>
+            <FieldMapping FieldName="Json" TargetFieldName="@Json" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpUserPersonLoginSel" TargetName="Roshish_LibraryManagementSystem:dbo:SpUserPersonLoginSel">
+          <FieldMappings>
+            <FieldMapping FieldName="InputJson" TargetFieldName="@InputJson" />
+            <FieldMapping FieldName="Json" TargetFieldName="@Json" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpUserPersonSel" TargetName="Roshish_LibraryManagementSystem:dbo:SpUserPersonSel">
+          <FieldMappings>
+            <FieldMapping FieldName="Json" TargetFieldName="@Json" />
+          </FieldMappings>
+        </SPCallMapping>
+        <SPCallMapping SPCallName=":SpUserPersonTsk" TargetName="Roshish_LibraryManagementSystem:dbo:SpUserPersonTsk">
+          <FieldMappings>
+            <FieldMapping FieldName="Json" TargetFieldName="@UserData" />
+          </FieldMappings>
+        </SPCallMapping>
+      </SPCallMappings>
+      <TvfCallMappings />
+      <TypeConversionDefinitions />
+    </MappingStore>
+  </MappingStores>
+  <ModelViews />
+</Project>
